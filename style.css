@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .head_div{
+    display:flex;  
+    background-color: rgba(0, 0, 0, 0.824); 
+    padding: 1% 0 1% 0 ;
+    width: 100%;
+}
+.head_div .navbar{
+    display: flex;
+    margin-left: 13%;
+    width: 10%;
+    align-items: center;
+}
+
+.head_div ul li{
+    list-style: none;
+    margin-right: 10%;
+    padding: 0px 10px 0px 10px;
+}
+
+.head_div li a{
+    text-decoration: none;
+    color: white;
+   text-wrap: nowrap;
+   
+}
+
+.head_div .logo{
+    color: azure;
+}
+
+.head_div .nav_img{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+   
+}
+
+.nav_img img{
+    width: 30%; 
+}
+
+.main .bg{
+    width: 100%;
+}
+
+
+
+
+/****************Main **********************/
+.main-page{
+    background-color: black;
+    position: relative;
+    z-index: -1;
+    height: 46rem;
+}
+
+.main{   
+    color: white;
+    position: relative;
+    width: 25rem;
+    margin-left: 62%;
+}
+
+
+.main .search{
+    border-radius: 2vw;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 27px;
+
+}
+.main .search-botton img{
+    position: absolute;
+    top: 4.8%;
+    width: 1.8rem;
+    right: 10px;
+    margin-top: 27px;  
+}
+/* .search-div{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+} */
+.search-div img{
+    width: 20px;
+    position: absolute;
+    left: 64rem;
+    top: 6.3rem;
+}
+
+
+.main-flex{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw 8vw;
+    top: 2rem;
+}
+
+.main-content button{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: 0;
+    color: white;
+    background-color: rgb(43, 183, 183);
+}
+
+.main-content a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+.main-content h1{
+    font-size: 4rem;
+    }
+
+.main-content p{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.main-image{
+    width: 50%;
+}
+.main-content{
+    width: fit-content;
+    color: white;
+}
+.main-image img{
+   width: 90%
+}
+ 
+
+/****************Categories **********************/
+
+.cat-page .cat-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.cat-box{
+    box-sizing: border-box;
+    border-right: 2px solid rgb(66, 65, 65);
+    padding-right: 20px;
+}
+
+.vertical-line{
+    content: "";
+    background-color: black;
+   width: 2px;
+   height: 100%;
+}
+
+
+/****************Devices **********************/
+
+
+.devices{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.dev-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dev-features h1{
+    font-size: 4rem;
+}
+.dev-features p{
+    font-size: 2rem;
+    align-self: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.btn button{
+    padding: 7px;
+    background-color: rgb(28, 100, 255);
+    color: aliceblue;
+    width: 10rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(28, 100, 255);
+    font-weight: bold;
+}
+
+.device-img img{
+   width: 35rem;
+}
+
+/****************Footer **********************/
+
+.control-page{
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    color: antiquewhite;
+    padding-left:4rem ;
+    gap: 4rem;
+
+}
+ .end-page li {
+    list-style: none;
+    padding: 4px;
+ }
+.contact p {
+    padding: 4px;
+}
+
+.copy-rights {
+    background-color:rgb(39, 38, 38); 
+    color: antiquewhite;
+    padding: 8px;
+}
